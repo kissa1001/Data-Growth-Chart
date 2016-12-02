@@ -4,7 +4,7 @@ const CHART = document.getElementById("barChart");
 Chart.defaults.global.animation.duration = 1000;
 Chart.defaults.scale.ticks.beginAtZero = true;
 Chart.defaults.scale.gridLines.display = false;
-console.log(Chart.defaults);
+
 let barChart = new Chart(CHART, {
     type: 'bar',
     data: {

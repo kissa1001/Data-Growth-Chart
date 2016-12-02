@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Data Growth Bar Chart</title>
-    <link rel="stylesheet" href="style.css" />
     <style>
         #barChart {
-            width: 400px;
-            height: 400px;
+            max-width: 800px;
+            max-height: 500px;
         }
     </style>
 </head>
 <body>
-    <canvas id="barChart"></canvas>
+    <div id="wrapper">
+        <canvas id="barChart"></canvas>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
     <script src="app.js"></script>
