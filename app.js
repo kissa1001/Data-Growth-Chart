@@ -11,8 +11,8 @@ let barChart = new Chart(CHART, {
         labels: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019'],
         datasets: [{
             label: "Data Growth",
-            borderColor: "rgb(81, 170, 235)",
-            backgroundColor: "rgb(81, 170, 235)",
+            borderColor: "#A7E256",
+            backgroundColor: "#A7E256",
             hoverBackgroundColor: "rgb(44, 129, 156)",
             hoverBorderColor: "rgb(44, 129, 156)",
             borderWidth: 1,
